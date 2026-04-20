@@ -1,0 +1,58 @@
+# ============================================
+# Energy Management System - .gitignore
+# ============================================
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# === Logs & Debug Output ===
+*.log
+*.txt
+!requirements.txt
+logs/
+*.tmp
+
+# === Data (too large for Git, ~130MB CSV) ===
+data/
+*.csv
+*.zip
+
+# === Spark Checkpoints ===
+checkpoints/
+
+# === Hadoop config (auto-generated) ===
+.hadoop/
+
+# === Docker volumes (managed by Docker) ===
+influxdb_data/
+grafana_data/
+
+# === Thesis & Documentation (private) ===
+docs/
+
+# === IDE & Editor ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === OS Files ===
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# === Temp / Dump Files ===
+dump.json
+out.json
+~WRL*.tmp
+*.docx
