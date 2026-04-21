@@ -267,23 +267,6 @@ Trên cửa sổ **Producer**, nhập `A` + Enter:
 
 ---
 
-## 👥 Tác giả
-
-| Thành viên | Vai trò |
-|-----------|---------|
-| [Tên thành viên 1] | Thiết kế Pipeline, Spark Streaming |
-| [Tên thành viên 2] | Producer, Kafka, Docker |
-| [Tên thành viên 3] | AI Forecast, Grafana Dashboard |
-
-> 📚 Đồ án môn học: **Công nghệ Phân tích Dữ liệu Lớn**
-
----
-
-## 📄 License
-
-Dự án này được phát hành dưới giấy phép [MIT License](LICENSE).
-
----
 
 <p align="center">
   <strong>⚡ Built with Big Data Technologies ⚡</strong><br/>
